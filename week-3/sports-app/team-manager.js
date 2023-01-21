@@ -33,6 +33,6 @@ module.exports.getTeam = getTeam;
 
 // Creating the displayTeam function
 const displayTeam = (team) => {
-    return "Name: " + team.name + "\nMascot: " + team.mascot + "\nPlayer Count: " + team.playerCount;
+    return "Name: " + team.name + "\nMascot: " + team.mascot + "\nPlayer Count: " + team.playerCount + "\n";
 }
 module.exports.displayTeam = displayTeam;
